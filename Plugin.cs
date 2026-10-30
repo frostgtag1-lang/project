@@ -60,7 +60,7 @@ namespace iiMenu
         private void Awake()
         {
             // Set console title
-            Console.Title = $"ii Reborn // Build {PluginInfo.Version}";
+            Console.Title = $"IImonke // Build {PluginInfo.Version}";
             instance = this;
             Application.quitting += OnApplicationQuitting;
 
@@ -74,7 +74,7 @@ namespace iiMenu
 
             LogManager.Log($@"
 {logoLines}
-    ii Reborn  {(PluginInfo.BetaBuild ? "Beta " : "Build")} {PluginInfo.Version}
+    IImonke  {(PluginInfo.BetaBuild ? "Beta " : "Build")} {PluginInfo.Version}
     Compiled {PluginInfo.BuildTimestamp}
     
     This program comes with ABSOLUTELY NO WARRANTY;
